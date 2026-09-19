@@ -1,0 +1,20 @@
+title: "Stochastic Analysis and Statistics 2026-II"
+description: "A workshop on stochastic analysis and statistics, 4 November 2026, Room 122, Graduate School of Mathematical Sciences, The University of Tokyo."
+lang: en
+locale: en_US
+timezone: Asia/Tokyo
+url: "https://kkamatani.github.io"
+baseurl: "/2026-stochastic-analysis-statistics-ii"
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
