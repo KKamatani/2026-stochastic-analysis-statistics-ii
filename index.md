@@ -36,7 +36,7 @@ image: /assets/img/hero.jpg
     <div class="row g-4 align-items-center">
       <div class="col-lg-7">
         <h2 id="about-title" class="h3 mb-3">About</h2>
-        <p>Stochastic Analysis and Statistics 2026-II brings together researchers working on stochastic analysis and statistical methodology for stochastic processes.</p>
+        <p>Stochastic Analysis and Statistics 2026-II brings together researchers working on stochastic analysis and statistical methodology for stochastic processes. The workshop will feature a special lecture by Arnaud Gloter and talks by early-career researchers.</p>
         <p>The workshop is scheduled for {{ event.date_label }} at the {{ event.venue }}, {{ event.campus }}, {{ event.room }}.</p>
         <a class="small" href="{{ event.previous_url }}">Previous meeting: Stochastic Analysis and Statistics 2026<i class="bi bi-arrow-up-right ms-1" aria-hidden="true"></i></a>
       </div>
@@ -44,7 +44,7 @@ image: /assets/img/hero.jpg
         <div class="card shadow-sm">
           <div class="card-body p-4">
             <h3 class="h6 mb-3">Latest Information</h3>
-            <p class="small mb-0">The programme, speakers and abstracts will be announced here. Information on participation will follow.</p>
+            <p class="small mb-0">A tentative afternoon programme is listed below, with a 40-minute special lecture by Arnaud Gloter and six 25-minute early-career talks. Talk titles and abstracts will be announced. Information on participation will follow.</p>
           </div>
         </div>
       </div>
@@ -55,13 +55,14 @@ image: /assets/img/hero.jpg
 <section id="programme" class="section-pad bg-body-secondary" aria-labelledby="programme-title">
   <div class="container">
     <div class="d-flex flex-wrap gap-3 justify-content-between align-items-center mb-4">
-      <h2 id="programme-title" class="h3 mb-0">Programme</h2>
+      <h2 id="programme-title" class="h3 mb-0">Tentative Programme</h2>
       <a class="btn btn-outline-primary btn-sm" href="#abstracts">See Abstracts</a>
     </div>
     <div class="card shadow-sm">
       <div class="card-body p-4">
         <h3 class="h5 mb-1">{{ event.date_label }}</h3>
         <p class="small text-secondary mb-3">{{ event.room }} · {{ event.campus }}</p>
+        <p class="small text-secondary mb-3">Provisional schedule; times and the number of early-career talks are subject to change. All talk slots include questions and discussion.</p>
         {% if site.data.programme.size > 0 %}
         <ol class="schedule mb-0">
           {% for slot in site.data.programme %}
@@ -72,6 +73,7 @@ image: /assets/img/hero.jpg
               {% assign speaker = site.data.speakers[slot.speaker] %}
               <a class="fw-semibold" href="#abs-{{ slot.speaker }}">{{ speaker.name | escape }}</a>
               <span class="d-block small text-secondary">{{ speaker.affiliation | escape }}</span>
+              {% if speaker.role %}<span class="d-block small mt-1">{{ speaker.role | escape }}</span>{% endif %}
               {% if speaker.title and speaker.title != '' %}<span class="d-block small mt-1">{{ speaker.title | escape }}</span>{% endif %}
               {% else %}{{ slot.label | escape }}{% endif %}
             </div>
@@ -113,6 +115,7 @@ image: /assets/img/hero.jpg
 <section id="speakers" class="section-pad bg-body-secondary" aria-labelledby="speakers-title">
   <div class="container">
     <h2 id="speakers-title" class="h3 mb-3">Speakers</h2>
+    <p class="text-secondary">Special lecture: Arnaud Gloter. The tentative list of speakers is shown below.</p>
     {% if site.data.speakers.size > 0 %}
     <ul class="row g-4 list-unstyled mb-0">
       {% for entry in site.data.speakers %}
@@ -144,6 +147,20 @@ image: /assets/img/hero.jpg
   </div>
 </section>
 
+<section id="organisers" class="section-pad bg-body-secondary" aria-labelledby="organisers-title">
+  <div class="container">
+    <h2 id="organisers-title" class="h3 mb-4">Organisers</h2>
+    <ul class="row g-4 list-unstyled mb-0">
+      {% for organiser in site.data.organisers %}
+      <li class="col-md-6 col-lg-4">
+        <a href="{{ organiser.url | escape }}">{{ organiser.name | escape }}</a>
+        <span class="d-block small text-secondary">{{ organiser.affiliation | escape }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
 {% if event.funding and event.funding != '' %}
 <section class="py-4 bg-body-tertiary" aria-label="Acknowledgements">
   <div class="container">
@@ -151,4 +168,3 @@ image: /assets/img/hero.jpg
   </div>
 </section>
 {% endif %}
-

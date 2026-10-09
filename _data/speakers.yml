@@ -1,3 +1,36 @@
-# Add speakers with name, affiliation, title and abstract. See README.md.
-{}
-
+gloter:
+  name: "Arnaud Gloter"
+  affiliation: "Université Évry Paris-Saclay"
+  role: "Special lecture · 40 minutes"
+  title: ""
+  abstract: ""
+yoshida:
+  name: "Junichiro Yoshida"
+  affiliation: "The Institute of Statistical Mathematics"
+  title: ""
+  abstract: ""
+yano:
+  name: "Shota Yano"
+  affiliation: "The University of Tokyo"
+  title: ""
+  abstract: ""
+shiotani:
+  name: "Takaaki Shiotani"
+  affiliation: "The University of Tokyo"
+  title: ""
+  abstract: ""
+ning:
+  name: "Boyuan Ning"
+  affiliation: "Waseda University"
+  title: ""
+  abstract: ""
+tomita:
+  name: "Haruki Tomita"
+  affiliation: "The University of Osaka"
+  title: ""
+  abstract: ""
+nakakita:
+  name: "Shogo Nakakita"
+  affiliation: "The University of Osaka"
+  title: ""
+  abstract: ""

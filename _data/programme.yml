@@ -1,3 +1,23 @@
-# Add slots with time and either a speaker ID or a label. See README.md.
-[]
-
+# Tentative programme. Talk durations include questions and discussion.
+- time: "13:00–13:05"
+  label: "Opening remarks"
+- time: "13:05–13:45"
+  speaker: gloter
+- time: "13:45–14:10"
+  speaker: yoshida
+- time: "14:10–14:35"
+  speaker: yano
+- time: "14:35–14:50"
+  label: "Break"
+- time: "14:50–15:15"
+  speaker: shiotani
+- time: "15:15–15:40"
+  speaker: ning
+- time: "15:40–15:55"
+  label: "Break"
+- time: "15:55–16:20"
+  speaker: tomita
+- time: "16:20–16:45"
+  speaker: nakakita
+- time: "16:45–16:50"
+  label: "Closing remarks"

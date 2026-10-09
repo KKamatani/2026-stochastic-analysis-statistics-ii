@@ -13,6 +13,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 exclude:
+  - 講演依頼文案.txt
   - README.md
   - Gemfile
   - Gemfile.lock
