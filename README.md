@@ -44,6 +44,19 @@ speaker_id:
     Abstract text. Markdown is supported.
 ```
 
+数式を含む要旨は，バックスラッシュをそのまま保持できる `abstract: |` 形式で記述します．本文中の数式は `$$...$$` で囲んでください．このサイトの Markdown 処理（kramdown）が数式を保護し，`_includes/head.html` で読み込む MathJax がブラウザー上で表示します．`$...$` では Markdown 処理によって数式中の記号が変わるため，使用しません．
+
+```yaml
+  abstract: |
+    We consider a process $$X^\varepsilon$$ with parameter $$\theta^\star$$.
+
+    $$
+    K_0(u) = cu^{\alpha-1} 1_{\{u>0\}}
+    $$
+```
+
+文章中の `$$...$$` はインライン数式，空行で区切って独立させた `$$...$$` は別行立ての数式になります．MathJax は CDN から読み込むため，表示にはインターネット接続が必要です．
+
 `programme.yml` は `[]` を削除し，次の形式で追加してください．`speaker` は `speakers.yml` のIDと一致させます．
 
 ```yaml
