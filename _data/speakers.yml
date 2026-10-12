@@ -3,11 +3,12 @@ gloter:
   affiliation: "Université Évry Paris-Saclay"
   role: "Special lecture · 40 minutes"
   title: "Drift estimation for Volterra processes under small noise asymptotic : QMLE approach"
-  abstract: "We consider a process $X^\varepsilon$ that solves a stochastic Volterra equation with an unknown parameter $\theta^\star$ in the drift function. The Volterra kernel $K$ is singular near zero, exhibiting a behavior comparable to $K_0(u)=cu^{\alpha-1} 1_{\{u>0\}}$ with $\alpha \in (1/2,1)$. It is assumed that the diffusion coefficient is proportional to $\varepsilon \to 0$. 
-Based on discrete observations of the Volterra process on a mesh of size $h\to0$, we construct a  Quasi Maximum Likelihood Estimator (QMLE). The main step is to assess the error arising from reconstructing the underlying semimartingale path through the inversion of the Volterra kernel. 
-We will present conditions on the kernel $K$ under which this inversion method is valid. Then, we prove that is possible to construct an efficient estimator of the drift coefficient.
+  abstract: |
+    We consider a process $X^\varepsilon$ that solves a stochastic Volterra equation with an unknown parameter $\theta^\star$ in the drift function. The Volterra kernel $K$ is singular near zero, exhibiting a behavior comparable to $K_0(u)=cu^{\alpha-1} 1_{\{u>0\}}$ with $\alpha \in (1/2,1)$. It is assumed that the diffusion coefficient is proportional to $\varepsilon \to 0$.
+    Based on discrete observations of the Volterra process on a mesh of size $h\to0$, we construct a  Quasi Maximum Likelihood Estimator (QMLE). The main step is to assess the error arising from reconstructing the underlying semimartingale path through the inversion of the Volterra kernel.
+    We will present conditions on the kernel $K$ under which this inversion method is valid. Then, we prove that is possible to construct an efficient estimator of the drift coefficient.
 
-This is joint work with Nakahiro Yoshida (The University of Tokyo)"
+    This is joint work with Nakahiro Yoshida (The University of Tokyo)
 yoshida:
   name: "Junichiro Yoshida"
   affiliation: "The Institute of Statistical Mathematics"
