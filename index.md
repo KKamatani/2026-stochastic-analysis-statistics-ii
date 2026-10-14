@@ -15,6 +15,7 @@ image: /assets/img/hero.jpg
         <div class="d-flex gap-2 mt-4 flex-wrap">
           <a href="#programme" class="btn btn-light btn-lg">View Programme</a>
           <a href="#venue" class="btn btn-outline-light btn-lg">Venue &amp; Access</a>
+          <a href="https://forms.gle/HDpdTJmYvxkcM7xJ7" class="btn btn-outline-light btn-lg" target="_blank" rel="noopener noreferrer">Registration<i class="bi bi-box-arrow-up-right ms-2" aria-hidden="true"></i><span class="visually-hidden"> (opens in a new tab)</span></a>
         </div>
       </div>
       <div class="col-lg-5">
@@ -44,7 +45,8 @@ image: /assets/img/hero.jpg
         <div class="card shadow-sm">
           <div class="card-body p-4">
             <h3 class="h6 mb-3">Latest Information</h3>
-            <p class="small mb-0">A tentative afternoon programme is listed below, with a 40-minute special lecture by Arnaud Gloter and six 25-minute early-career talks. Talk titles and abstracts will be announced. Information on participation will follow.</p>
+            <p class="small mb-3">A tentative afternoon programme is listed below, with a 40-minute special lecture by Arnaud Gloter and six 25-minute early-career talks. Talk titles and abstracts will be announced.</p>
+            <a href="https://forms.gle/HDpdTJmYvxkcM7xJ7" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Registration Form<i class="bi bi-box-arrow-up-right ms-2" aria-hidden="true"></i><span class="visually-hidden"> (opens in a new tab)</span></a>
           </div>
         </div>
       </div>
