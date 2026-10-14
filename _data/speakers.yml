@@ -1,6 +1,8 @@
+# Website/profile links checked on 2026-10-14; omit url when unconfirmed.
 gloter:
   name: "Arnaud Gloter"
   affiliation: "Université Évry Paris-Saclay"
+  url: "https://www.math-evry.cnrs.fr/members/agloter/welcome"
   role: "Special lecture · 40 minutes"
   title: "Drift estimation for Volterra processes under small noise asymptotic : QMLE approach"
   abstract: |
@@ -12,6 +14,7 @@ gloter:
 yoshida:
   name: "Junichiro Yoshida"
   affiliation: "The Institute of Statistical Mathematics"
+  url: "https://researchmap.jp/yoshida_junichiro"
   title: ""
   abstract: ""
 yano:
@@ -34,11 +37,13 @@ The expansions admit intrinsic expressions in terms of connections, extending Am
 shiotani:
   name: "Takaaki Shiotani"
   affiliation: "The University of Tokyo"
+  url: "https://sites.google.com/view/takaaki-shiotani/home"
   title: "On lead-lag estimation of non-synchronously observed point processes"
   abstract: "This paper introduces a new theoretical framework for analyzing lead-lag relationships between point processes, with a special focus on applications to high-frequency financial data. In particular, we are interested in lead-lag relationships between two sequences of order arrival timestamps. The seminal work of Dobrev and Schaumburg proposed model-free measures of cross-market trading activity based on cross-counts of timestamps. While their method is known to yield reliable results, it faces limitations because its original formulation inherently relies on discrete-time observations, an issue we address in this study. Specifically, we formulate the problem of estimating lead-lag relationships in two point processes as that of estimating the shape of the cross-pair correlation function (CPCF) of a bivariate stationary point process, a quantity well-studied in the neuroscience and spatial statistics literature. Within this framework, the prevailing lead-lag time is defined as the location of the CPCF's dominant peak. Under this interpretation, the peak location in Dobrev and Schaumburg's cross-market activity measure can be viewed as an estimator of the lead-lag time in the aforementioned sense. We further propose an alternative lead-lag time estimator based on kernel density estimation and show that it possesses desirable theoretical properties and delivers superior numerical performance. Empirical evidence from high-frequency financial data demonstrates the effectiveness of our proposed method."
 ning:
   name: "Boyuan Ning"
   affiliation: "Waseda University"
+  url: "https://w-rdb.waseda.jp/html/100004808_en.html"
   title: "Elasticity estimation via the CKLS--CIR transform for small-noise CEV-type diffusions"
   abstract: | 
     We construct a feasible two-step estimator for the elasticity parameter in small-noise CEV-type diffusions. Under joint small-noise and high-frequency asymptotics, we establish its consistency and an $$\varepsilon^{-1}$$ central limit theorem with an explicit asymptotic variance. We adapt a Lamperti-based transformation strategy to elasticity inference for a CEV process with an attainable, absorbing $$0$$ boundary. Under a local-to-CEV scaling, an auxiliary CKLS process and a Girsanov change of measure yield a strictly positive CIR-type benchmark in which the elasticity is recast as a linear-drift parameter. A preliminary elasticity estimator based on local realized variance supplies the unknown parameter in the state mapping, yielding a feasible LSE-type estimator. The asymptotic theory combines control of the CKLS-to-CEV path-replacement error, total-variation closeness between the original and changed measures, and asymptotic negligibility of the preliminary plug-in error, thereby transferring the auxiliary CIR limit theory to the feasible estimator under the original measure.
@@ -50,5 +55,6 @@ tomita:
 nakakita:
   name: "Shogo Nakakita"
   affiliation: "The University of Osaka"
+  url: "https://www.shnakakita.org/"
   title: ""
   abstract: ""

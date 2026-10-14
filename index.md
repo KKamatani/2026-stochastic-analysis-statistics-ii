@@ -120,7 +120,13 @@ image: /assets/img/hero.jpg
     <ul class="row g-4 list-unstyled mb-0">
       {% for entry in site.data.speakers %}
       {% assign speaker = entry[1] %}
-      <li class="col-md-6 col-lg-4"><a href="#abs-{{ entry[0] }}">{{ speaker.name | escape }}</a><span class="d-block small text-secondary">{{ speaker.affiliation | escape }}</span></li>
+      <li class="col-md-6 col-lg-4">
+        <a href="#abs-{{ entry[0] }}">{{ speaker.name | escape }}</a>
+        <span class="d-block small text-secondary">{{ speaker.affiliation | escape }}</span>
+        {% if speaker.url and speaker.url != '' %}
+        <a class="d-inline-block small mt-1" href="{{ speaker.url | escape }}" target="_blank" rel="noopener noreferrer" aria-label="Website of {{ speaker.name | escape }} (opens in a new tab)">Website<i class="bi bi-box-arrow-up-right ms-1" aria-hidden="true"></i></a>
+        {% endif %}
+      </li>
       {% endfor %}
     </ul>
     {% else %}<p class="text-secondary mb-0">The list of speakers will be announced.</p>{% endif %}
@@ -153,7 +159,9 @@ image: /assets/img/hero.jpg
     <ul class="row g-4 list-unstyled mb-0">
       {% for organiser in site.data.organisers %}
       <li class="col-md-6 col-lg-4">
-        <a href="{{ organiser.url | escape }}">{{ organiser.name | escape }}</a>
+        {% if organiser.url and organiser.url != '' %}
+        <a href="{{ organiser.url | escape }}" target="_blank" rel="noopener noreferrer" aria-label="Website of {{ organiser.name | escape }} (opens in a new tab)">{{ organiser.name | escape }}<i class="bi bi-box-arrow-up-right ms-1" aria-hidden="true"></i></a>
+        {% else %}{{ organiser.name | escape }}{% endif %}
         <span class="d-block small text-secondary">{{ organiser.affiliation | escape }}</span>
       </li>
       {% endfor %}
