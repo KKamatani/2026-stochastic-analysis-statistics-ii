@@ -52,12 +52,12 @@ tomita:
   name: "Haruki Tomita"
   affiliation: "The University of Osaka"
   title: ""
-  abstract: "Dimension-free statistical guarantees for dynamic guidance scales in diffusion models"
+  abstract: ""
 nakakita:
   name: "Shogo Nakakita"
   affiliation: "The University of Osaka"
   url: "https://www.shnakakita.org/"
-  title: ""
+  title: "Dimension-free statistical guarantees for dynamic guidance scales in diffusion models"
   abstract: |
     Adjusting the guidance scale is a standard strategy for aligning pre-trained conditional diffusion models with downstream objectives without retraining. Recent studies have reported that guidance scales adapted to the diffusion time, the current state, and/or the prompt outperform constant ones. However, the sample complexity of learning such adaptive guidance scales remains largely unexplored. In this study, we formulate the learning of time-dependent guidance scales as empirical reward maximization and establish generalization error bounds that are independent of the dimensions of the state and prompt spaces. 
   
