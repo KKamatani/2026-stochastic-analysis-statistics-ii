@@ -51,8 +51,11 @@ ning:
 tomita:
   name: "Haruki Tomita"
   affiliation: "The University of Osaka"
-  title: ""
-  abstract: ""
+  title: "Parametric Inference for Bergomi Models via Marginal Composite Likelihood: Allowing Singular Kernels"
+  abstract: |
+    Statistical inference for volatility parameters from option time series remains underdeveloped. Motivated by Hurst exponent estimation in rough volatility, we focus on parametric inference under an assumed Bergomi-type volatility model. The Hurst exponent describes the roughness of volatility paths and is a parameter of the singular power-law kernel in the rough Bergomi model. We therefore formulate its estimation as part of a broader problem of parametric kernel inference.
+    
+    We use cumulative forward variance, which can be recovered from option time series. The parameters of interest enter the diffusion coefficient of its infinite-dimensional stochastic differential equation. Diffusion degeneracy and kernel singularities complicate likelihood construction and approximation error control. We take maturity differences to eliminate a common drift and then consider their logarithmic time increments. These admit a joint Gaussian approximation that depends only on maturity averages of the kernel, so the forward-variance curve itself need not be estimated. Since the leading-order covariance matrix of this Gaussian approximation is asymptotically degenerate, we construct a composite likelihood using its marginal distributions. The smoothing effect of maturity averaging enables us to control approximation errors even for singular kernels. We establish consistency and asymptotic normality as the time and maturity grids become dense.
 nakakita:
   name: "Shogo Nakakita"
   affiliation: "The University of Osaka"
