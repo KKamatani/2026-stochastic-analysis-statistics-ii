@@ -15,8 +15,9 @@ yoshida:
   name: "Junichiro Yoshida"
   affiliation: "The Institute of Statistical Mathematics"
   url: "https://researchmap.jp/yoshida_junichiro"
-  title: ""
-  abstract: ""
+  title: "Asymptotic Characterization of Pure and Rényi Differential Privacy via Malliavin Derivative: Asymptotic Minimaxity for regular models."
+  abstract:  |
+    We investigate the asymptotic statistical theory of differential privacy (DP) in parametric i.i.d. models. We consider two notions of DP, pure DP and Rényi DP, under an asymptotic regime in which the privacy budgets shrink with the sample size. We show that these privacy constraints asymptotically induce L1- and L2-type constraints, respectively, on the Malliavin derivative of the limiting distribution of the mechanisms. Building on this asymptotic characterization, we establish the asymptotic minimaxity of Gaussian mechanisms under Rényi DP in regular models. In contrast, Laplace mechanisms are not necessarily asymptotically minimax under pure DP, even in one-dimensional models. We provide a counterexample to this phenomenon and establish the asymptotic minimaxity of Laplace mechanisms under additional conditions."
 yano:
   name: "Shota Yano"
   affiliation: "The University of Tokyo"
